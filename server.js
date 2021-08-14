@@ -26,7 +26,6 @@ app.use((req, res, next) => {
 
 
 // DB config
-const connectUrl = 'mongodb+srv://ayush:ayush1rawat7@cluster0.6jvei.mongodb.net/whatsappDB?retryWrites=true&w=majority'
 mongoose.connect(connectUrl, {
     useCreateIndex: true,
     useFindAndModify: false,
